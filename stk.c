@@ -43,12 +43,12 @@ data_t pop(struct stack* stk) {
 }
 void clear(struct stack* stk) {
     stk->size = 0;
-    stk->top = -2934;
+    stk->top = NULL;
     stk->data = NULL;
 }
 void prntfStk(struct stack* stk) {
     forn(i, 0, stk->size) {
-        printf_s("%d ", stk->data[i]);
+        printf_s("%c ", stk->data[i]);
     }
     printf_s("\n");
 }

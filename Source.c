@@ -16,23 +16,24 @@ int main() {
         me99;
     }
 
+    printf_s("data_t - char\n\n");
     printf_s("Input N: ");
     scanf_s("%d", &n);
 
-    int tmp = 0;
+    data_t tmp = 0;
 
     forn(i, 0, n) {
         printf_s("Enter a value: ");
-        scanf_s("%d", &tmp);
+        scanf_s(" %c", &tmp, 1);
         push(a, tmp);
     }
 
-    printf_s("\nStack size = %d\nTop elem: %d\nStack:\n", a->size, a->top);
+    printf_s("\nStack size = %d\nTop elem: %c\nStack:\n", a->size, a->top);
     prntfStk(a);
 
     printf_s("\nPop until the end:\n");
     while (a->size > 0) {
-        printf_s("Top elem = %d\n", pop(a));
+        printf_s("Top elem = %c\n", pop(a));
     }
 
     printf_s("\n\n\tPress any key to exit: ");

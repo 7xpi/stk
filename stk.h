@@ -4,9 +4,9 @@
 #define me99 printf_s("memerr line: %d", __LINE__); system("pause>nul"); exit(99);
 #define forn(i, j, n) for(int i = j; i < n; ++i)
 
-typedef int data_t;
+typedef char data_t; // ------------------------------- char
 
-typedef struct stack {
+struct stack {
     int size;
     data_t* data;
     data_t top;
