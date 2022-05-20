@@ -43,16 +43,16 @@ data_t pop(struct stack* stk) {
 }
 void clear(struct stack* stk) {
     stk->size = 0;
-    stk->top = NULL;
+    stk->top = 0.0;/*NULL;*/
     stk->data = NULL;
 }
 void prntfStk(struct stack* stk) {
     forn(i, 0, stk->size) {
-        printf_s("%c ", stk->data[i]);
+        printf_s("%g ", stk->data[i]);
     }
     printf_s("\n");
 }
 void stkalloc(struct stack* stk) {
     stk->size = 0;
-    stk->data = (data_t*)malloc((stk->size + 1) * sizeof(int));
+    stk->data = (data_t*)malloc((stk->size + 1) * sizeof(data_t));
 }
