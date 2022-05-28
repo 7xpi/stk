@@ -9,12 +9,7 @@ int main(void) {
 
     struct stack* a = NULL;
 
-    a = (struct stack*)malloc(sizeof(struct stack));
-    stkalloc(a);
-
-    if (!a) {
-        me99;
-    }
+    a = stkalloc(a);
 
     data_t tmp = 0;
     int sl = selector();
@@ -81,8 +76,8 @@ int main(void) {
         free(a);
     }
 
-    printf_s("\n\n\tPress any key to exit: ");
-    system("pause>nul");
+    //printf_s("\n\n\tPress any key to exit: ");
+    //system("pause>nul");
     return 0;
 }
 

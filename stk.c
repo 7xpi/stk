@@ -55,7 +55,15 @@ void prntfStk(struct stack* stk) {
     }
     printf_s("\n");
 }
-void stkalloc(struct stack* stk) {
+struct stack* stkalloc(struct stack* stk) {
+    stk = (struct stack*)malloc(sizeof(struct stack));
+    if (!stk) {
+        me99;
+    }
     stk->size = 0;
     stk->data = (data_t*)malloc((stk->size + 1) * sizeof(data_t));
+    if (!stk->data) {
+        me99;
+    }
+    return stk;
 }
