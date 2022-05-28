@@ -16,25 +16,24 @@ int main(void) {
         me99;
     }
 
-    printf_s("data_t - double\n\n");
-    printf_s("Input N: ");
+    printf_s("\n\tData type = char\n\n");
+    printf_s("\tInput N: ");
     scanf_s("%d", &n);
 
     data_t tmp = 0;
 
     forn(i, 0, n) {
-        printf_s("Enter a value: ");
-        //scanf_s(" %c", &tmp, 1);
-        scanf_s("%lf", &tmp);
+        printf_s("\tEnter a value: ");
+        scanf_s(" %c", &tmp, 1);
         push(a, tmp);
     }
 
-    printf_s("\nStack size = %d\nTop elem: %g\nStack:\n", a->size, a->top);
+    printf_s("\n\tStack size = %d\n\tTop elem: %c\n\tStack:\n", a->size, a->top);
     prntfStk(a);
 
-    printf_s("\nPop until the end:\n");
+    printf_s("\n\tPop until the end:\n");
     while (a->size > 0) {
-        printf_s("Top elem = %g\n", pop(a));
+        printf_s("\tTop elem = %c\n", pop(a));
     }
 
     if (a) {

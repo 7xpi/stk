@@ -47,8 +47,9 @@ void clear(struct stack* stk) {
     stk->data = NULL;
 }
 void prntfStk(struct stack* stk) {
+    printf_s("\t");
     forn(i, 0, stk->size) {
-        printf_s("%g ", stk->data[i]);
+        printf_s("%c ", stk->data[i]);
     }
     printf_s("\n");
 }
