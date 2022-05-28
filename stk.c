@@ -38,12 +38,14 @@ data_t pop(struct stack* stk) {
     }
 
     stk->top = rval;
-
+    if (stk->size == 0) {
+        clear(stk);
+    }
     return rval;
 }
 void clear(struct stack* stk) {
     stk->size = 0;
-    stk->top = 0.0;/*NULL;*/
+    stk->top = (data_t)0;
     stk->data = NULL;
 }
 void prntfStk(struct stack* stk) {

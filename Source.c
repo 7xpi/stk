@@ -48,8 +48,13 @@ int main(void) {
             }
             case 4: {
                 printf_s("\n\tPop elements until the end:\n");
-                while (a->size > 0) {
-                    printf_s("\tTop elem = %c\n", pop(a));
+                if (a->size > 0) {
+                    while (a->size > 0) {
+                        printf_s("\tTop elem = %c\n", pop(a));
+                    }
+                }
+                else {
+                    printf_s("\tStack is empty!\n");
                 }
                 break;
             }
