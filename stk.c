@@ -19,7 +19,6 @@ void push(struct stack* stk, data_t d) {
     stk->top = stk->data[stk->size - 1];
 }
 data_t pop(struct stack* stk) {
-    data_t err = -1;
     if (isEmpty(stk)) {
         printf_s("\n\nstk is empty\n\n");
         exit(3221225477);
