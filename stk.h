@@ -15,5 +15,6 @@ struct stack {
 void push(struct stack* stk, data_t d);
 data_t pop(struct stack* stk);
 void clear(struct stack* stk);
+int isEmpty(struct stack* stk);
 void prntfStk(struct stack* stk);
 struct stack* stkalloc(struct stack* stk);

@@ -23,7 +23,7 @@ int main(void) {
                 break;
             }
             case 2: {
-                if (a->size > 0) {
+                if (!isEmpty(a)) {
                     printf_s("\n\tPopped = %c\n", pop(a));
                 }
                 else {
@@ -33,7 +33,7 @@ int main(void) {
             }
             case 3: {
                 printf_s("\n\tStack: ");
-                if (a->size > 0) {
+                if (!isEmpty(a)) {
                     prntfStk(a);
                 }
                 else {
@@ -43,7 +43,7 @@ int main(void) {
             }
             case 4: {
                 printf_s("\n\tPop elements until the end:\n");
-                if (a->size > 0) {
+                if (!isEmpty(a)) {
                     while (a->size > 0) {
                         printf_s("\tTop elem = %c\n", pop(a));
                     }
@@ -55,7 +55,7 @@ int main(void) {
             }
             case 5: {
                 printf_s("\n\tStack dump: ");
-                if (a->size > 0) {
+                if (!isEmpty(a)) {
                     printf_s("\n\tStack size = %d\n\tTop elem: %c\n\tStack: ", a->size, a->top);
                     prntfStk(a);
                 }
@@ -76,8 +76,6 @@ int main(void) {
         free(a);
     }
 
-    //printf_s("\n\n\tPress any key to exit: ");
-    //system("pause>nul");
     return 0;
 }
 

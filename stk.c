@@ -20,7 +20,7 @@ void push(struct stack* stk, data_t d) {
 }
 data_t pop(struct stack* stk) {
     data_t err = -1;
-    if (stk->size == 0) {
+    if (isEmpty(stk)) {
         printf_s("\n\nstk is empty\n\n");
         exit(3221225477);
     }
@@ -38,7 +38,7 @@ data_t pop(struct stack* stk) {
     }
 
     stk->top = rval;
-    if (stk->size == 0) {
+    if (isEmpty(stk)) {
         clear(stk);
     }
     return rval;
@@ -47,6 +47,9 @@ void clear(struct stack* stk) {
     stk->size = 0;
     stk->top = (data_t)0;
     stk->data = NULL;
+}
+int isEmpty(struct stack* stk) {
+    return stk->size == 0;
 }
 void prntfStk(struct stack* stk) {
     printf_s("\t");
