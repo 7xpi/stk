@@ -1,0 +1,88 @@
+Stack elemnts:
+a o f v p m j x 
+
+Stack elemnts:
+a o f v p m j x v t e w s n h a 
+
+Stack elemnts:
+a o f v p m j x v t e w s n h a c j d e z l d a 
+
+Stack elemnts:
+a o f v p m j x v t e w s n h a c j d e z l d a 2 
+
+Stack elemnts:
+a o f v p m j x v t e w s n h a c j d e z l d a 2 3 
+
+Stack elemnts:
+a o f v p m j x v t e w s n h a c j d e z l d a 2 3 g 
+
+Stack elemnts:
+a o f v p m j x v t e w s n h a c j d e z l d a 2 3 
+
+Stack elemnts:
+a o f v p m j x v t e w s n h a c j d e z l d a 2 
+
+Stack elemnts:
+a o f v p m j x v t e w s n h a c j d e z l d a 
+
+Stack elemnts:
+a o f v p m j x v t e w s n h a c j d e z l d 
+
+Stack elemnts:
+a o f v p m j x v t e w s n h a c j d e z l 
+
+Stack elemnts:
+a o f v p m j x v t e w s n h a c j d e z 
+
+Stack elemnts:
+a o f v p m j x v t e w s n h a c j d e 
+
+Stack elemnts:
+a o f v p m j x v t e w s n h a c j d 
+
+Stack elemnts:
+a o f v p m j x v t e w s n h a c j 
+
+Stack elemnts:
+a o f v p m j x v t e w s n h a c 
+
+Stack elemnts:
+a o f v p m j x v t e w s n h a 
+
+Stack elemnts:
+a o f v p m j x v t e w s n h 
+
+Stack elemnts:
+a o f v p m j x v t e w s n 
+
+Stack elemnts:
+a o f v p m j x v t e w s 
+
+Stack elemnts:
+a o f v p m j x v t e w 
+
+Stack elemnts:
+a o f v p m j x v t e 
+
+Stack elemnts:
+a o f v p m j x v t 
+
+Stack elemnts:
+a o f v p m j x v 
+
+Stack elemnts:
+a o f v p m j x v 
+
+Stack elemnts:
+a o f v p m j x v 
+
+Empty stack
+
+Empty stack
+
+Stack elemnts:
+g 
+
+Stack elemnts:
+g e 
+

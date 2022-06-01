@@ -51,11 +51,17 @@ int isEmpty(struct stack* stk) {
     return stk->size == 0;
 }
 void prntfStk(struct stack* stk) {
-    //printf_s("\t");
     forn(i, 0, stk->size) {
         printf_s("%c ", stk->data[i]);
     }
     printf_s("\n");
+}
+void filePrntfStk(struct stack* stk, FILE* fl) {
+    fprintf_s(fl, "Stack elemnts:\n");
+    forn(i, 0, stk->size) {
+        fprintf_s(fl, "%c ", stk->data[i]);
+    }
+    fprintf_s(fl, "\n\n");
 }
 struct stack* stkalloc(struct stack* stk) {
     stk = (struct stack*)malloc(sizeof(struct stack));
