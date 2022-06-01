@@ -140,11 +140,13 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="addons.c" />
     <ClCompile Include="Source.c" />
     <ClCompile Include="stk.c" />
     <ClCompile Include="ui.c" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="addons.h" />
     <ClInclude Include="stk.h" />
     <ClInclude Include="ui.h" />
   </ItemGroup>

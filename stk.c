@@ -51,7 +51,7 @@ int isEmpty(struct stack* stk) {
     return stk->size == 0;
 }
 void prntfStk(struct stack* stk) {
-    printf_s("\t");
+    //printf_s("\t");
     forn(i, 0, stk->size) {
         printf_s("%c ", stk->data[i]);
     }

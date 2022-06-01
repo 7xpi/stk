@@ -24,12 +24,18 @@
     <ClCompile Include="ui.c">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="addons.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="stk.h">
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="ui.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="addons.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
